@@ -1,0 +1,186 @@
+* {
+	font-family:  Segoe UI, Tahoma, Arial, sans-serif;
+}
+
+body {
+	margin:  0;
+	padding:  0;
+}
+
+h1 {
+	text-align:  center;
+}
+
+h2 {
+	margin:  5px 0 10px 10px;
+}
+
+h3 {
+	margin:  0;
+	font-size:  16px;
+}
+
+hr {
+	border:none;
+	border-bottom:1px solid #aaa;
+}
+
+/* Tabs */
+#tabs {
+	list-style: none;
+	width:  100%;
+	padding: 0;
+	text-align:  center;
+}
+
+#tabs li {
+	display:  inline-block;
+	border:  2px solid #aaa;
+	color:  #aaa;
+	padding: 4px;
+	font-size:  18px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#tabs li:hover {
+	color: #333;
+	border-color: #333;
+}
+
+/* main content */
+
+.column {
+	width:  900px;
+	margin:  0 auto;
+}
+
+.box {
+	margin:  0 0 10px 0;
+	padding:  10px;
+	background-color:  #eee;
+	border:  1px solid #aaa;
+}
+
+/* Schedule Row */
+.schedule-box {
+	position:  relative;
+	height:  50px;
+	padding:  0px !important;
+}
+
+.schedule-course {
+	display:  inline-block;
+	float:  left;
+	position:  relative;
+	height:  100%;
+	padding:  10px;
+	box-sizing:  border-box;
+	border:  1px solid #666;
+	background-color:  #aaa;
+	overflow:  hidden;
+	font-weight:  bold;
+	color:  #333;
+	vertical-align:  middle;
+	text-align:  center;
+}
+
+/* requirement box */
+
+.row {
+	margin:  10px 0;
+}
+
+.row h3 {
+	display:  inline-block;
+	height:  100%;
+	width:  156px;
+	padding:  10px 0;
+	text-align:  center;
+	vertical-align:  top;
+}
+
+.row .box {
+	display:  inline-block;
+	position:  relative;
+	width:  686px;
+	margin:  0; 
+	background-color:  #ddd;
+}
+
+.row .box ul {
+	display:  inline-block;
+	margin:  0;
+	padding:  0;
+	list-style:  none;
+}
+
+.row li.general {
+	line-height:  50px;
+}
+
+.row .req-block {
+	position:  relative;
+}
+
+.req-block > ul {
+	width:  100%;
+}
+
+.row .type-block {
+	display:  inline-block;
+	position:  absolute;
+	left:  0px;
+	bottom:  10px;
+	top:  10px;
+	width:  75px;
+}
+
+.section {
+	position:  relative;
+	padding-left:  80px;
+}
+
+.type-block div {
+	position:  absolute;
+	top:  50%;
+	width:  75px;
+	height:  50px;
+	margin-top:  -25px;
+	text-align:  center;
+	vertical-align:  middle;
+	line-height:  50px;
+	font-size:  26px;
+}
+
+.credit div {
+	margin-top:  -30px !important;
+}
+
+.credit::after {
+	content:  "credits";
+	position:  absolute;
+	top:  50%;
+	margin-top:  10px;
+	width:  75px;
+	text-align:  center;
+}
+
+.coursenum {
+	display:  inline-block;
+	width:  150px;
+}
+
+.course-reqlist {
+	display: inline-block;
+	float: right;
+	text-align:  right;
+	color:  #666;
+	font-weight:  normal;
+	margin-right: 5px;
+}
+
+.completed {
+	font-weight:  bold;
+	background-color:  #9d9;
+}
